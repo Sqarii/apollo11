@@ -6,7 +6,7 @@
 		let number;
 		let click = 0;
 
-		let apollo = new Audio('apollo.mp3');
+		let apollo = new Audio('apolloStart.mp3');
 
 
 		function Merkury()
@@ -135,21 +135,4 @@
 		function Anim1()
 		{
     		document.getElementById('rocket').className ='rocket1';
-
-    		setTimeout(Anim2, 40000)
-    		//Anim2();
-  		}
-
-  		function Anim2()
-		{
-    		document.getElementById('rocketV').className ='rocketV';
-
-    		setTimeout(Anim3, 9500)
-  		}
-
-  		function Anim3()
-		{
-    		document.getElementById("ziemia").src = "ziemiaR.png"
-
-
   		}

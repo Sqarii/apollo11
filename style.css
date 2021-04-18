@@ -90,26 +90,6 @@ body
   	animation-fill-mode: forwards;
 }
 
-.rocketV1
-{
-	position: absolute;
-	width: 1%;
-	left: 37.78%;
-	top: -10%;
-}
-
-.rocketV
-{
-	position: absolute;
-	width: 1%;
-	left: 37.78%;
-	top: -10%;
-
-	animation-name: rocketAnimV;
-  	animation-duration: 10s;
-  	animation-iteration-count: 1;
-}
-
 
 @keyframes rocketAnim
 {
@@ -120,21 +100,8 @@ body
 
   to 
   {
-    transform: translate(0, -3000%);
+    transform: translate(0, -1000px);
   }
 }
 
-
-@keyframes rocketAnimV
-{
-  from
-  {
-    transform: translate(0,0);
-  }
-
-  to 
-  {
-    transform: translate(0, 470%);
-  }
-}
 
