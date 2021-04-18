@@ -1,0 +1,140 @@
+body
+{
+	background-color: #0e1215;
+	background-image: url(tlo.png);
+	background-size: cover;
+	color: #FFFFFF;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+.numberArea
+{
+	width: 30%;
+	background-color: #15181b;
+	border-radius: 8px;
+	color: #FFFFFF;
+}
+.planets
+{
+
+}
+.planet
+{
+	width: 8%;
+	height: 8%;
+	transition: transform .2s;
+	margin-left: 1%;
+}
+.planet:hover
+{
+	transform: scale(1.7);
+}
+.table
+{
+	margin-top: 1%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	background-color: #15181b;
+	width: 80%;
+	border-radius: 20px;
+	font-size: 250%;
+}
+.values
+{
+	display: inline-block;
+	font-size: 50%;
+	width: 40%;
+	background-color: #6d74bc;
+	border-radius: 8px;
+}
+.weight
+{
+	display: inline-block;
+	font-size: 50%;
+	width: 40%;
+	background-color: #6d74bc;
+	border-radius: 8px;
+	margin-bottom: 1.5%;
+}
+.yourWeightTable
+{
+	margin-top: 2%;
+	padding: 0.5%;
+	width: 20%;
+	background-color: #6d74bc;
+	border-radius: 20px;
+	font-size: 120%;
+}
+.rocket
+{
+	position: absolute;
+	width: 1%;
+	/*left: 37.78%;
+	top: -10%;*/
+
+	/*animation-name: rocketAnim;
+  	animation-duration: 10s;
+  	animation-iteration-count: 1;
+  	animation-fill-mode: forwards;*/
+}
+
+.rocket1
+{
+	position: absolute;
+	width: 1%;
+	/*left: 37.82%;
+	top: 9.8%;*/
+
+	animation-name: rocketAnim;
+  	animation-duration: 45s;
+  	animation-iteration-count: 1;
+  	animation-fill-mode: forwards;
+}
+
+.rocketV1
+{
+	position: absolute;
+	width: 1%;
+	left: 37.78%;
+	top: -10%;
+}
+
+.rocketV
+{
+	position: absolute;
+	width: 1%;
+	left: 37.78%;
+	top: -10%;
+
+	animation-name: rocketAnimV;
+  	animation-duration: 10s;
+  	animation-iteration-count: 1;
+}
+
+
+@keyframes rocketAnim
+{
+  from
+  {
+    transform: translate(0,0);
+  }
+
+  to 
+  {
+    transform: translate(0, -2500%);
+  }
+}
+
+
+@keyframes rocketAnimV
+{
+  from
+  {
+    transform: translate(0,0);
+  }
+
+  to 
+  {
+    transform: translate(0, 470%);
+  }
+}
+

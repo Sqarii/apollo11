@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Droga Mleczna</title>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link rel="icon" type="image/png" href="saturn.png"/>
+</head>
+<body>
+	<div>
+		<center><h1>Witaj Astronauto</h1></center>
+	</div>
+
+	<div>
+		<div class="planets">
+
+			<center>
+				<img id="merkury" class="planet" src="merkury.png" onclick="Merkury()">
+				<img id="wenus" class="planet" src="wenus.png" onclick="Wenus()">
+				<img id="ziemia" class="planet" src="ziemia.png" onclick="Ziemia()">
+				<img id="mars" class="planet" src="mars.png" onclick="Mars()">
+				<img id="jowisz" class="planet" src="jowisz.png" onclick="Jowisz()">
+				<img id="saturn" class="planet" src="saturn.png" onclick="Saturn()">
+				<img id="uran" class="planet" src="uran.png" onclick="Uran()">
+				<img id="neptun" class="planet" src="neptun.png" onclick="Neptun()">
+			</center>
+
+		</div>
+
+		<center>
+			<div class="table">
+
+	            <center><p id="planetName">Planeta</p></center>
+
+	            <center>
+	            	<div class="values">
+	            		<center><p>Średnia odległość od Słońca: </p><p id="distance">0 mln km</p></center>
+	            	</div>
+
+					<div class="weight">
+	            		<center><p>Na tej planecie ważysz: </p><p id="weight">0 kg</p></center>
+	            	</div>
+
+	            	<div class="values">
+	            		<center><p>Temperaura: </p><p id="temp">0 °C</p></center>
+	            	</div>
+
+	            	<div class="values">
+	            		<center><p>Rok trwa: </p><p id="year">0 dni</p></center>
+	            	</div>
+	            </center>
+
+	            <div class="weight">
+	                
+	            </div></center>
+
+
+	    	</div>
+	    </center>
+
+		<center>
+			<div class="yourWeightTable">
+				<p>Podaj swoją wagę astronauto</p>
+
+				<p style="font-size: 70%;">i wybierz planetę</p>
+
+				<input class="numberArea" id="number" type="number" min="0" max="1000" placeholder="...100">
+			</div>
+		</center>
+
+		<br><br>
+
+		<img id="rocket" class="rocket" src="rocket.png">
+
+		<img id="rocketV" class="rocketV1" src="rocket.png">
+
+	</div>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
